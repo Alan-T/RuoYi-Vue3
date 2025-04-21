@@ -53,11 +53,11 @@ function addIframe() {
 .hasTagsView {
   .app-main {
     /* 84 = navbar + tags-view = 50 + 34 */
-    height: calc(100vh - 84px);
+    height: calc(100vh - 80px);
   }
 
   .fixed-header + .app-main {
-    padding-top: 84px;
+    padding-top: 80px;
   }
 }
 </style>

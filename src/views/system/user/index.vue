@@ -7,7 +7,7 @@
       >
         <!--部门数据-->
         <pane size="16">
-          <el-col>
+          <el-col style="height: 100%; overflow: auto">
             <div class="head-container">
               <el-input
                 v-model="deptName"
